@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ContainerHeader from './container/index'
+import Navbar from './components/Navbar'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ContainerHeader/>
+    <Navbar/>
   </React.StrictMode>,
   document.getElementById('root')
 );
